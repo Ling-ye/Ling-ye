@@ -1,66 +1,28 @@
 <h1 align="center">Lingye</h1>
 
-## About Me
+<p align="center">构建可组合、可运维、可评测的 Agent 系统。</p>
 
-- **Game development**: Experienced with performance testing and analysis workflows used in
-  game projects, from data collection and metrics to diagnostics and tooling.
-- **Performance analysis**: Work with frame timings, CPU/GPU/FPS metrics, memory snapshots,
-  and ADB data to compare trends, study correlations, and produce visual reports.
-- **Agent development**: Explore agent patterns and modular combinations of tools, memory, RAG,
-  MCP, and context engineering.
-- **Automation**: Turn repetitive workflows into scripts, data pipelines, CLIs, desktop
-  applications, and bots, with an emphasis on diagnostics and recoverability.
+## 关于我
 
-## Open Source
+我主要构建 Agent 运行时、工具与上下文系统，以及让它们可部署、可诊断、可评测的工程基础设施。
+我关注清晰的模块边界、可靠的执行过程，以及可恢复的自动化。
 
-### [CC Port](https://github.com/Ling-ye/cc-port) · Public Beta
+## 正在构建
 
-A local-first desktop resource manager for Codex, Claude Code, Cursor, Windsurf, and OpenCode. It
-safely synchronizes Skills, MCP servers, Rules, Prompts, and Plugins through a private
-Git repository controlled by the user.
+### [AgentStrata](https://github.com/Ling-ye/AgentStrata) · Alpha
 
-- A shared Python core powers the desktop UI, CLI, and MCP server.
-- Every write is planned before execution, with ownership tracking, target locks, backups,
-  validation, and rollback.
-- MCP credentials are replaced with placeholders before resources enter version control.
-- The project ships as a Windows installer with environment diagnostics, CI, release notes, and
-  user documentation.
+一个自托管的声明式多渠道 AI Agent 平台，用统一配置完成 Agent 的组合、运行、运维与评测。
 
-### [Lingye_Agent](https://github.com/Ling-ye/Lingye_Agent) · Alpha
+### [CC Port](https://github.com/Ling-ye/cc-port) · Public Beta · [Releases](https://github.com/Ling-ye/cc-port/releases)
 
-A modular Python agent framework for research and experimentation. Reasoning, tools,
-memory, retrieval, and context management are designed as independently reusable components.
+一个本地优先的 AI Coding 资源管理器，通过用户自己的私有 Git 仓库，在多种 AI coding 工具之间安全同步 Skills、MCP 等资源。
 
-- Six agent patterns: Simple, Function Calling, ReAct, Plan-and-Solve, Reflection, and
-  Context-Aware.
-- Working, episodic, semantic, and perceptual memory, plus a RAG pipeline with query expansion,
-  HyDE, and reranking.
-- MCP tool integration, GSSC context engineering, and a unified interface for cloud and local
-  OpenAI-compatible models.
-- End-to-end examples for PDF learning, codebase maintenance, document generation, and search.
+### [Lingye_Agent](https://github.com/Ling-ye/Lingye_Agent) · v0.1.0 · [Releases](https://github.com/Ling-ye/Lingye_Agent/releases)
 
-## Coming Next
+一个面向研究与实验的模块化 LLM Agent 框架，用于组合 Agent 范式、记忆、RAG、MCP 与上下文工程能力。
 
-### AgentStrata
+## 背景
 
-A self-hosted, declarative platform for deploying, operating, and evaluating multi-channel AI
-agents. It uses versioned `BotSpec` configurations to compose each agent while sharing contracts,
-adapters, operations, and evaluation infrastructure.
-
-- Per-instance selection of a native runtime, LangGraph, Codex, and other backends.
-- Feishu and QQ / OneBot integrations with composable tools, MCP services, RAG, memory, and private
-  wikis.
-- Identity, role-based access, task isolation, credential boundaries, diagnostics, and logs.
-- A React / FastAPI operations console, Linux / WSL deployment, and BFCL, GAIA, and IFEval
-  evaluation support.
-
-## Tools & Technologies
-
-- **Agents**: LLM Agents · ReAct · Plan-and-Solve · Reflection · Function Calling · LangGraph ·
-  RAG · MCP · ACP · Context Engineering
-- **Applications**: Python 3.10+ · FastAPI · Pydantic · React · SSE · WebSocket ·
-  Desktop GUI · CLI
-- **Data & performance**: Qdrant · Neo4j · SQLite · pandas · NumPy · Matplotlib · OpenPyXL ·
-  Unreal Insights · ADB
-- **Engineering**: pytest · Ruff · mypy · Git · CI · Docker · systemd · Windows ·
-  Linux / WSL
+- **AI Agent 开发**：围绕 Agent 架构、工具调用、记忆、RAG、MCP 与上下文工程，构建可组合、可运维、可评测的智能体系统。
+- **游戏开发与性能分析**：设计从数据采集、指标对比到诊断报告的性能分析流程。
+- **自动化工程**：把重复工作沉淀为脚本、数据管线、CLI、桌面应用与 Bot。
