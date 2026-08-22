@@ -32,8 +32,3 @@
     </td>
   </tr>
 </table>
-
-
-<picture>
-  <img src="/metrics.16personalities.svg" alt="Lingye's INFJ profile from 16Personalities" width="100%">
-</picture>
