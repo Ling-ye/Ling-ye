@@ -1,28 +1,56 @@
-<h1 align="center">Lingye</h1>
+<div align="center">
 
-<p align="center">构建可组合、可运维、可评测的 Agent 系统。</p>
+# Lingye
 
-## 关于我
+</div>
 
-我主要构建 Agent 运行时、工具与上下文系统，以及让它们可部署、可诊断、可评测的工程基础设施。
-我关注清晰的模块边界、可靠的执行过程，以及可恢复的自动化。
+## GitHub Overview
 
-## 正在构建
+<picture>
+  <img src="/metrics.base.svg" alt="Lingye's GitHub account statistics" width="100%">
+</picture>
 
-### [AgentStrata](https://github.com/Ling-ye/AgentStrata) · Alpha
+## Language Statistics
 
-一个自托管的声明式多渠道 AI Agent 平台，用统一配置完成 Agent 的组合、运行、运维与评测。
+<picture>
+  <img src="/metrics.languages.svg" alt="Languages used across Lingye's GitHub repositories" width="100%">
+</picture>
 
-### [CC Port](https://github.com/Ling-ye/cc-port) · Public Beta · [Releases](https://github.com/Ling-ye/cc-port/releases)
+## Contribution Calendar
 
-一个本地优先的 AI Coding 资源管理器，通过用户自己的私有 Git 仓库，在多种 AI coding 工具之间安全同步 Skills、MCP 等资源。
+<picture>
+  <img src="/metrics.isocalendar.svg" alt="Lingye's full-year isometric contribution calendar" width="100%">
+</picture>
 
-### [Lingye_Agent](https://github.com/Ling-ye/Lingye_Agent) · v0.1.0 · [Releases](https://github.com/Ling-ye/Lingye_Agent/releases)
+## What I'm Building
 
-一个面向研究与实验的模块化 LLM Agent 框架，用于组合 Agent 范式、记忆、RAG、MCP 与上下文工程能力。
+| Project | Stage | Description |
+| --- | --- | --- |
+| [AgentStrata](https://github.com/Ling-ye/AgentStrata) | Alpha | A self-hosted, declarative multi-channel AI agent platform for composing, running, operating, and evaluating agents through unified configuration. |
+| [CC Port](https://github.com/Ling-ye/cc-port) | [Public Beta](https://github.com/Ling-ye/cc-port/releases) | A local-first AI coding resource manager that safely synchronizes Skills, MCP servers, and other resources across multiple AI coding tools. |
+| [Lingye_Agent](https://github.com/Ling-ye/Lingye_Agent) | [v0.1.0](https://github.com/Ling-ye/Lingye_Agent/releases) | A modular LLM agent framework for research and experimentation with agent patterns, memory, RAG, MCP, and context engineering. |
 
-## 背景
+## About Me
 
-- **AI Agent 开发**：围绕 Agent 架构、工具调用、记忆、RAG、MCP 与上下文工程，构建可组合、可运维、可评测的智能体系统。
-- **游戏开发与性能分析**：设计从数据采集、指标对比到诊断报告的性能分析流程。
-- **自动化工程**：把重复工作沉淀为脚本、数据管线、CLI、桌面应用与 Bot。
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Favorite Anime Characters</h3>
+      <picture>
+        <img src="/metrics.anilist.svg" alt="Lingye's favorite anime characters on AniList" width="100%">
+      </picture>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Favorite Music</h3>
+      <picture>
+        <img src="/metrics.music.svg" alt="Music from Lingye's public playlist" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<h3 align="center">INFJ · 16Personalities</h3>
+
+<picture>
+  <img src="/metrics.16personalities.svg" alt="Lingye's INFJ profile from 16Personalities" width="100%">
+</picture>
