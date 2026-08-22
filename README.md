@@ -7,15 +7,13 @@
 </picture>
 
 <picture>
-  <img src="/metrics.isocalendar.svg" alt="Lingye's full-year isometric contribution calendar" width="100%">
+  <img src="/metrics.isocalendar.svg" alt="Lingye's recent six-month isometric contribution calendar" width="100%">
 </picture>
 
 
-| Project |
-| --- |
-| [AgentStrata](https://github.com/Ling-ye/AgentStrata) |
-| [CC Port](https://github.com/Ling-ye/cc-port) |
-| [Lingye_Agent](https://github.com/Ling-ye/Lingye_Agent) |
+<picture>
+  <img src="/metrics.repositories.svg" alt="Lingye's featured GitHub repositories" width="100%">
+</picture>
 
 
 <table>
@@ -29,7 +27,7 @@
     <td width="50%" valign="top">
       <h3 align="center">Favorite Music</h3>
       <picture>
-        <img src="/metrics.music.svg" alt="Music from Lingye's public playlist" width="100%">
+        <img src="/metrics.music.svg?v=20260822" alt="Music from Lingye's public playlist" width="100%">
       </picture>
     </td>
   </tr>

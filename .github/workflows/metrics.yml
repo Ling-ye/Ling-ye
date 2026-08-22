@@ -56,7 +56,18 @@ jobs:
           filename: metrics.isocalendar.svg
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
+
+      - name: Featured repositories
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          use_prebuilt_image: yes
+          user: Ling-ye
+          filename: metrics.repositories.svg
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: Ling-ye/AgentStrata, Ling-ye/cc-port, Ling-ye/Lingye_Agent
 
       - name: Favorite AniList characters
         if: ${{ vars.ANILIST_USERNAME != '' }}
